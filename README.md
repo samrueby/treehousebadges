@@ -34,15 +34,19 @@ Pass an object with your own settings to override the defaults below.
     width: 500
 };`
 
+
 If you'd lilke to style it differently, you can by inspecting the markup produced. Sorry about the inline styles, use `!important` or something.
 
-```
+
+**Example**
+
+```HTML
 <div id="putMyBadgesHere"></div>
-  <!-- Only include the following line if you don't already have jQuery. -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" type="text/javascript"></script>
-    <script src="https://s3.amazonaws.com/RedStaplerSoftware/treehouseBadges.min.js" type="text/javascript"></script>
-    <script type="text/javascript">
-        <!-- Or just use $ instead of jQuery.noConflict(true) if you don't have the possibility of conflicting with another instance of jQuery. -->
+<!-- Only include the following line if you don't already have jQuery. -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" type="text/javascript"></script>
+<script src="https://s3.amazonaws.com/RedStaplerSoftware/treehouseBadges.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+    <!-- Or just use $ instead of jQuery.noConflict(true) if you don't have the possibility of conflicting with another instance of jQuery. -->
     jQuery.noConflict(true)('#putMyBadgesHere').treehouseBadges({ width: 330 });    
-    </script>
+</script>
 ```

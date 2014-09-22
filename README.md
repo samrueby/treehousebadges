@@ -50,3 +50,5 @@ If you'd lilke to style it differently, you can by inspecting the markup produce
     jQuery.noConflict(true)('#putMyBadgesHere').treehouseBadges({ width: 330 });    
 </script>
 ```
+
+There is a live example of the widget at http://samrueby.com/2014/09/21/treehouse-badges/.

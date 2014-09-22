@@ -11,7 +11,7 @@
 ( function( $ ) {
     var defaults = {
         profileName: 'samuelrueby',
-        width: 500
+        width: 330
     };
 
     $.fn.treehouseBadges = function( options ) {
